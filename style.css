@@ -45,6 +45,12 @@ a{
   font-size:16px;
   font-family: arial;
   text-decoration:none;
+  text-align: center;
+  border-left: 1 1 black
+}
+.nav-link:hover{
+  color:red;
+  background-color: black;
 }
 .nav-link-actived{
   color:red;
@@ -55,10 +61,6 @@ a{
   width: 16px;
   height: 16px;
   top:0px;
-}
-.nav-link:hover{
-  color:red;
-  background-color: black;
 }
 footer{
   -webkit-box-sizing:border-box;
