@@ -14,6 +14,7 @@ body{
   border: 1px solid #ccc;
   box-shadow:0 4 2 rgba(0,0,0,0.5);
   box-shadow:2 3 2 rgba(0,0,0,0.7);
+  position: relative;
 }
 a{
   color: red;
