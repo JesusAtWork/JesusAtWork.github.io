@@ -46,14 +46,17 @@ a{
   font-family: arial;
   text-decoration:none;
   text-align: center;
-  border-left: 1 1 black
 }
 .nav-link:hover{
   color:red;
   background-color: black;
+  transition: all .4s ease-in-out;
 }
 .nav-link-actived{
   color:red;
+  border-left: solid;
+  border-left-width: 2px;
+  border-color: #2d2d2d;
   background-color: black;
 }
 .arrow1{
