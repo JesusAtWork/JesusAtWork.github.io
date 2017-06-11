@@ -49,15 +49,23 @@ a{
 }
 .nav-link:hover{
   color:red;
-  background-color: black;
+  background-color: #111;
+  transition: all .4s ease-in-out;
+}
+.nav-link:focus{
+  color:red;
+  background-color: #111;
   transition: all .4s ease-in-out;
 }
 .nav-link-actived{
   color:red;
   border-left: solid;
   border-left-width: 2px;
-  border-color: #2d2d2d;
-  background-color: black;
+  border-right: solid;
+  border-right-width: 2px;
+  border-right-color: #000;
+  border-left-color: #2d2d2d;
+  background-color: #111;
 }
 .arrow1{
   position: relative;
